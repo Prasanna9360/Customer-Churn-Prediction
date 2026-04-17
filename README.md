@@ -1,5 +1,7 @@
 # 📊 Customer Churn Analysis and Prediction
 
+Machine Learning project for predicting customer churn using classification models and data-driven insights.
+
 ## 🧠 Overview
 This project focuses on analyzing customer churn in a telecommunications company and building a machine learning model to predict whether a customer is likely to leave.
 
@@ -53,6 +55,11 @@ The goal is to help businesses identify at-risk customers and take proactive mea
 
 ## 📊 Model Visualization
 
+### 📊 Churn Distribution
+![Churn Distribution](images/churn_distribution.png)
+
+---
+
 ### 🔍 Feature Importance
 ![Feature Importance](images/feature_importance.png)
 
@@ -72,6 +79,15 @@ The goal is to help businesses identify at-risk customers and take proactive mea
 - Random Forest performed better than Logistic Regression  
 - Achieved strong prediction accuracy  
 - Visualization helped in understanding model performance clearly  
+
+---
+
+## ⚠️ Improvements Made
+
+- Applied feature scaling to improve Logistic Regression performance  
+- Increased iterations to resolve convergence warnings  
+- Removed irrelevant feature (`customerID`) for better accuracy  
+- Added visualizations for improved data understanding  
 
 ---
 
@@ -99,9 +115,10 @@ Customer-Churn-Prediction/
 ├── requirements.txt
 ├── Telco_Customer_Churn_Dataset.csv
 ├── images/
-│   ├── confusion_matrix_rf.png
+│   ├── churn_distribution.png
 │   ├── feature_importance.png
-│   └── model_comparison.png
+│   ├── model_comparison.png
+│   └── confusion_matrix_rf.png
 ```
 
 ---
